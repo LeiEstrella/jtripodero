@@ -1,0 +1,273 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+html{
+	font-size: 10px;
+}
+
+.titulos{
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.body {
+  min-height: 100vh;
+	background-color: #FCE1AC;
+}
+
+.header{
+	padding: 1.5rem;
+}
+
+.footer{
+  height: 25px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+}
+
+.p {
+  color: blue;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.ulli {
+  color: blue;
+  font-family: Arial;
+  font-size: 18px;
+
+}
+
+.carousel-inner {
+
+  height: 400px;
+}
+
+
+
+@keyframes aparecer {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.aparece {
+  font-size: 50px;
+  font-family: Arial;
+  text-align: center;
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+
+}
+
+.subtitulo{
+  font-size: 40px;
+  font-family: Arial
+  color: blue;
+}
+
+@keyframes aparecer {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.transicion:hover {
+  color: white;
+  height: 200px;
+  width: 300px;
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100px;
+  transition: all 2s;
+}
+
+input:focus {
+  width: 200px;
+  font-size: 30px;
+}
+
+.margenesform{
+  display: inline;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+
+}
+.margenesh2{
+  display: inline;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 5px;
+}
+
+.main__container{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.main__container-title{
+	flex-basis: 60%;
+	display: flex;
+	justify-content:  space-between;
+	align-items: center;
+}
+
+h1 {
+	color: blue;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 200%;
+}
+.grad {
+	background-image: linear-gradient(to left, yellow, blue, yellow, blue, yellow);
+	font-size: 20px;
+	padding: 20px;
+}
+
+section article p {
+	color: blue; 
+	font-size: 30px;
+}
+
+
+.interlineado {
+	line-height: 1.6;
+}
+
+
+.border {
+	border:1px solid black;
+}
+span {
+	background-color: yellow;
+}
+
+
+#grilla {
+   display: inline;
+   grid-template-areas:
+     "header nav nav"
+     "iniciales iniciales iniciales"
+     "avanzados avanzados avanzados"
+     "footer footer footer";
+   grid-template-rows: 100px 200px 500px 175px; 
+   grid-template-columns: 20% auto 15%;
+   grid-row-gap: 10px;
+   grid-column-gap: 15px;
+   height: 100vh;
+   margin:0px;
+   background-color: orange;
+   color: blue;
+   font-size: 20px;
+}
+.TextoInformativoI {
+	display: inline;
+	font-size: 13px;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 5px;
+}
+
+
+.TextoInformativoA {
+	display: inline;
+	font-size: 13px;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+.border {
+   border: 1px solid white;
+}
+header {
+   grid-area: header;
+}
+footer {
+   grid-area: footer;
+}
+section#Iniciales {
+   grid-area: iniciales;margin-left: 5px
+
+}
+section#Avanzados {
+   grid-area: avanzados; 
+   margin-left: 5px    
+}
+nav {
+   grid-area: nav;
+}
+aside {
+   grid-area: publicidad;
+}
+
+
+@media only screen and (max-width: 768px) {
+#grilla {
+   display: grid;
+   grid-template-areas:
+     "header nav nav"
+     "inicial inicial inicial"
+     "avanzado avanzado avanzado"
+     "footer footer footer";
+   grid-template-rows: 100px 200px 500px 175px; 
+   grid-template-columns: 20% auto 15%;
+   grid-row-gap: 10px;
+   grid-column-gap: 15px;
+   height: 100vh;
+   margin:0px;
+   background-color: orange;
+   color: black;
+   font-size: 30px;
+}
+.border {
+   border: 1px solid black;
+}
+header {
+   grid-area: header;
+}
+footer {
+   grid-area: footer;
+}
+section#productos {
+   grid-area: productos;     
+}
+section#servicios {
+   grid-area: servicios;     
+}
+nav {
+   grid-area: nav;
+}
+aside {
+grid-area: publicidad;}
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .titulo--productos{font-size: 20px;color: red;}
+  .centrar--elementos{text-align: center;}
+  h1{font-size:25px; }
+  h2{font-size:23px; }
+  h3{font-size:21px; }
+
+}
+
+@media (min-width: 770px) and (max-width: 1198px) { .centrar--elementos{text-align: center;}
+ }
+
+@media (min-width: 1200px) { ... }
