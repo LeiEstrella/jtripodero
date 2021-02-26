@@ -24,9 +24,8 @@ html{
 
 .footer{
   height: 25px;
-  text-align: right;
-  position: absolute;
-  bottom: 0;
+  text-align: center;
+  
 }
 
 .p {
@@ -48,6 +47,10 @@ html{
 }
 
 
+.BordeFoto {
+  border: solid blue 8px;
+}
+
 
 @keyframes aparecer {
   0%{opacity: 0;}
@@ -66,7 +69,7 @@ html{
 
 .subtitulo{
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial;
   color: blue;
 }
 
@@ -98,21 +101,9 @@ input:focus {
   display: inline;
   font-size: 18px;
   text-align: center;
-  margin-left: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 20px;
+  
+}
 
-}
-.margenesh2{
-  display: inline;
-  font-size: 18px;
-  text-align: center;
-  margin-left: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 5px;
-}
 
 .main__container{
 	width: 100%;
@@ -139,12 +130,6 @@ h1 {
 	padding: 20px;
 }
 
-section article p {
-	color: blue; 
-	font-size: 30px;
-}
-
-
 .interlineado {
 	line-height: 1.6;
 }
@@ -153,9 +138,7 @@ section article p {
 .border {
 	border:1px solid black;
 }
-span {
-	background-color: yellow;
-}
+
 
 
 #grilla {
