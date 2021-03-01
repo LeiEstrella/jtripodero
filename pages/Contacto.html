@@ -22,7 +22,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="navbar collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="../pages/BIO.html">Bio<span class="sr-only">(current)</span></a>
@@ -32,6 +32,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../pages/Criticas.html">Criticas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./pages/Radio.html">Radio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="./pages/Contacto.html" tabindex="-1" aria-disabled="true"></a>
@@ -47,36 +50,38 @@
 <main>
   <div class="row">
     <div class="col-lg-12 col-xs-12">
-        <h1 class="aparece">Contacto</h1>
+        <h1 class="AnimacionJose">Contacto</h1>
   </div>
+</div>
 	
+</main>
   <div class="row">
     <div class="col-lg-12 col-xs-12">
-    <div class="margenesform">
-		<h2>FORMULARIO</h2>
-		<form 
-		form action="#" value= method=GET>
-			Su nombre:<br />
-			<input type="text" name="nombre" size="20"><br />Su Email:<br />
-			<input type="text" name="email" size="20"><br />Su mensaje:<br />
-			<input type="text" name="mensaje" size="100"><br />
-
-			<div> acepto terminos y condiciones</div>
-			<input type="checkbox" name="aceptar" value="1"></input>
-			
-			<input type="submit" value="enviar">
-		</form>
+    
+		<h2 class="subtitulo">Formulario</h2>
+		<div class="mb-3">
+  <label class="contactForm" for="exampleFormControlInput1" class="form-label">Tu email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="contactForm mb-3">
+  <label class="contactForm" for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<div class="contactForm mb-3 form-check">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
 	</div>
   </div>
 </div>
 
-</main>
+
 <footer class="footer">
 		
-    <a title="instagram" href="https://www.instagram.com/jose.tripodero/"><img src="../images/iconoinstagram.png" alt="instagram" /></a>
+    <a class="espacioIconos" title="instagram" href="https://www.instagram.com/jose.tripodero/"><img width="3%" src="../images/iconoinstagram.png" alt="instagram" /></a>
       
-      <a title="twitter" href="https://twitter.com/jtripodero?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../images/iconotwitter.png" alt="twitter" /></a>
-    
+      <a class="espacioIconos" title="twitter" href="https://twitter.com/jtripodero?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img width="3%" src="../images/iconotwitter.png" alt="twitter" /></a>
+
+      <img  width="3%" src ="../images/iconogmail.png" alt="gmail" /></a>
 	</footer>
 	
 	    <!-- Optional JavaScript; choose one of the two! -->

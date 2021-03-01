@@ -14,16 +14,24 @@ html{
 }
 
 .body {
+  display: grid;
   min-height: 100vh;
-	background-color: #FCE1AC;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+
+	background-color: #F3EFC1;
 }
 
 .header{
-	padding: 1.5rem;
+	padding: 25px;
+  
+  background-color: blue;
+  flex-direction: row;
 }
 
 .footer{
-  height: 25px;
+  height: 35px;
   text-align: center;
   
 }
@@ -37,7 +45,8 @@ html{
 .ulli {
   color: blue;
   font-family: Arial;
-  font-size: 18px;
+  font-size: 20px;
+  margin-left: 10px;
 
 }
 
@@ -46,11 +55,50 @@ html{
   height: 400px;
 }
 
-
+.navbar{
+  font-size: 18px;
+  background-color: orange;
+  color:black;
+  width: 100%;
+}
 .BordeFoto {
   border: solid blue 8px;
+  text-align: center;
 }
 
+.espacioIconos{
+  padding: 25px;
+  margin-right: 20px;
+}
+
+.recuadro {
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px black
+  min-height:304px;
+}
+
+.AnimacionJose {
+  color: blue;
+  font-size: 45px;
+  padding: 30px;
+  animation-duration: 7s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%
+  }
+}
 
 @keyframes aparecer {
   0%{opacity: 0;}
@@ -67,10 +115,14 @@ html{
 
 }
 
-.subtitulo{
+.recuadro__subtitulo--estetica{
   font-size: 40px;
   font-family: Arial;
   color: blue;
+}
+.contactForm{
+  color: solid black;
+  font-size: 18px;
 }
 
 @keyframes aparecer {
@@ -80,11 +132,16 @@ html{
 
 .transicion:hover {
   color: white;
-  height: 200px;
-  width: 300px;
   background-color: blue;
   padding: 20px;
-  text-align: center;
+  transform: 3s;
+  text-shadow: 2s;
+  
+}
+
+.transform{
+  scale: (1.2,1.2);
+  text-shadow: 2px,2px,4px;
 }
 
 input {
@@ -118,21 +175,14 @@ input:focus {
 	align-items: center;
 }
 
-h1 {
-	color: blue;
-	font-family: Arial;
-	font-weight: bold;
-	font-size: 200%;
-}
+
 .grad {
 	background-image: linear-gradient(to left, yellow, blue, yellow, blue, yellow);
 	font-size: 20px;
 	padding: 20px;
 }
 
-.interlineado {
-	line-height: 1.6;
-}
+
 
 
 .border {
@@ -154,7 +204,7 @@ h1 {
    grid-column-gap: 15px;
    height: 100vh;
    margin:0px;
-   background-color: orange;
+   background-color: #F3EFC1;
    color: blue;
    font-size: 20px;
 }
