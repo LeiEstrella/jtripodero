@@ -32,7 +32,7 @@ html{
 
 .footer{
   height: 35px;
-  text-align: center;
+  text-align: left;
   
 }
 
@@ -67,7 +67,7 @@ html{
 }
 
 .espacioIconos{
-  padding: 25px;
+  padding: 20px;
   margin-right: 20px;
 }
 
@@ -131,15 +131,18 @@ html{
 }
 
 .transicion:hover {
+  
   color: white;
+  font-size: 40px;
   background-color: blue;
   padding: 20px;
   transform: 3s;
-  text-shadow: 2s;
+  text-shadow: 2px;
   
 }
 
 .transform{
+  font-size: 40px;
   scale: (1.2,1.2);
   text-shadow: 2px,2px,4px;
 }
