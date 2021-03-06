@@ -31,7 +31,7 @@ html{
 }
 
 .footer{
-  height: 38px;
+  height: 40px;
   text-align: left;
   
 }
@@ -48,6 +48,11 @@ html{
   font-size: 20px;
   margin-left: 10px;
 
+}
+
+.h5{
+  margin-left: 25px;
+  font-family: Arial;
 }
 
 .carousel-inner {
@@ -71,6 +76,11 @@ html{
   margin-right: 20px;
 }
 
+.tamanioMail{
+  font-size: 20px;
+  font-family: Arial;
+}
+
 .recuadro {
   justify-content: space-between;
   background-color: white;
@@ -79,7 +89,7 @@ html{
   min-height:304px;
 }
 
-.AnimacionJose {
+.animacionJose {
   color: blue;
   font-size: 45px;
   padding: 30px;
