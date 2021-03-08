@@ -146,7 +146,7 @@ html{
 .recuadro__subtitulo--estetica{
   font-size: 40px;
   font-family: Arial;
-  color: blue;
+  color: solid black;
 }
 .contactForm{
   color: solid black;
@@ -197,6 +197,7 @@ input:focus {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
+
 }
 
 .main__container-title{
@@ -236,7 +237,7 @@ input:focus {
    height: 100vh;
    margin:0px;
    background-color: #F3EFC1;
-   color: blue;
+   color: black;
    font-size: 20px;
 }
 .TextoInformativoI {
