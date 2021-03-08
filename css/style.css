@@ -26,7 +26,6 @@ html{
 .header{
 	padding: 25px;
   
-  background-color: blue;
   flex-direction: row;
 }
 
@@ -65,6 +64,7 @@ html{
   background-color: orange;
   color:black;
   width: 100%;
+  margin-left: 10px;
 }
 .BordeFoto {
   border: solid blue 8px;
@@ -89,9 +89,27 @@ html{
   min-height:304px;
 }
 
+.fotoCarousel {
+  width: 1024px;
+  height: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#object-position-1 {
+  object-position: 100px;
+}
+
+#object-position-2 {
+  object-position: 100%;
+}
+
+#object-position-3{
+  object-position: 100%;
+}
 .animacionJose {
-  color: blue;
-  font-size: 45px;
+  color: solid black;
+  font-size: 50px;
   padding: 30px;
   animation-duration: 7s;
   animation-name: slidein;
