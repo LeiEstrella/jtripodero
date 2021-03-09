@@ -68,7 +68,8 @@ html{
 }
 .BordeFoto {
   border: solid blue 8px;
-  text-align: center;
+  text-align: left;
+  margin-right: 25px;
 }
 
 .espacioIconos{
@@ -79,6 +80,12 @@ html{
 .tamanioMail{
   font-size: 20px;
   font-family: Arial;
+}
+
+.alignForm {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .recuadro {
@@ -118,13 +125,14 @@ html{
 
 @keyframes slidein {
   from {
-    margin-left: 100%;
-    width: 300%;
+   transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  
   }
 
   to {
-    margin-left: 0%;
-    width: 100%
+     transform: translate3d(0, 0, 0);
+  
   }
 }
 
@@ -237,10 +245,11 @@ input:focus {
    height: 100vh;
    margin:0px;
    background-color: #F3EFC1;
-   color: black;
+   color: blue;
    font-size: 20px;
 }
 .TextoInformativoI {
+  color: black;
 	display: inline;
 	font-size: 13px;
 	text-align: left;
@@ -251,6 +260,7 @@ input:focus {
 
 
 .TextoInformativoA {
+  color: black;
 	display: inline;
 	font-size: 13px;
 	text-align: left;
