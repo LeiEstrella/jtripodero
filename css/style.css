@@ -32,6 +32,8 @@ html{
 .footer{
   height: 40px;
   text-align: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
   
 }
 
@@ -48,7 +50,13 @@ html{
   margin-left: 10px;
 
 }
+.row{
+ padding: 20px;
+}
 
+.
+
+/*Developed by*/
 .h5{
   margin-left: 25px;
   font-family: Arial;
@@ -82,10 +90,26 @@ html{
   font-family: Arial;
 }
 
+/*Page Contacto*/
 .alignForm {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.recuadroForm {
+  justify-content: space-between;
+  background-color: grey;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px black
+  min-height:304px;
+  margin:0px auto;
+  padding: 30px;
+}
+
+.contactForm{
+  color: solid black;
+  font-size: 18px;
 }
 
 .recuadro {
@@ -94,31 +118,30 @@ html{
   border-radius: 12px;
   box-shadow: 2px 2px 4px black
   min-height:304px;
+  margin:0px auto;
+  padding: 30px;
 }
 
-.fotoCarousel {
-  width: 1024px;
-  height: 768px;
+.imgIndex {
+  
+  object-fit: contain;
+  max-width: 100%; 
+  
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
 
-#object-position-1 {
-  object-position: 100px;
+.marginIndex{
+  margin:0px auto;
 }
 
-#object-position-2 {
-  object-position: 100%;
-}
-
-#object-position-3{
-  object-position: 100%;
-}
+/*Animaci[on de las h1*/
 .animacionJose {
   color: solid black;
   font-size: 50px;
   padding: 30px;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-name: slidein;
 
 }
@@ -136,10 +159,38 @@ html{
   }
 }
 
+.animacionJoseIndex{
+  color: solid black;
+  font-size: 50px;
+  padding: 30px;
+  animation-duration: 4s;
+  animation-name: aniIndex;
+
+}
+
+@keyframes aniIndex {
+  from {
+   transform: translate3d(0, 0, 0);
+    visibility: visible;
+  
+  }
+
+  to {
+     transform: translate3d(50%, 0, 0);
+  
+  }
+}
+
+
+ 
+
+/*Aparecer
 @keyframes aparecer {
   0%{opacity: 0;}
   100%{opacity: 1;}
 }
+
+
 
 .aparece {
   font-size: 50px;
@@ -150,16 +201,14 @@ html{
   animation-iteration-count: 3;
 
 }
+*/
 
 .recuadro__subtitulo--estetica{
   font-size: 40px;
   font-family: Arial;
   color: solid black;
 }
-.contactForm{
-  color: solid black;
-  font-size: 18px;
-}
+
 
 @keyframes aparecer {
   0%{opacity: 0;}
@@ -206,6 +255,7 @@ input:focus {
 	display: flex;
 	justify-content: flex-end;
 
+
 }
 
 .main__container-title{
@@ -213,6 +263,7 @@ input:focus {
 	display: flex;
 	justify-content:  space-between;
 	align-items: center;
+  padding-right: 20px;
 }
 
 
@@ -229,7 +280,7 @@ input:focus {
 	border:1px solid black;
 }
 
-
+/*Page Cursos*/
 
 #grilla {
    display: inline;
@@ -245,7 +296,7 @@ input:focus {
    height: 100vh;
    margin:0px;
    background-color: #F3EFC1;
-   color: blue;
+   color: black;
    font-size: 20px;
 }
 .TextoInformativoI {
