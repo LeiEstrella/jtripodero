@@ -74,12 +74,14 @@ html{
   width: 100%;
   margin-left: 10px;
 }
+
 .BordeFoto {
   border: solid blue 8px;
   text-align: left;
   margin-right: 25px;
 }
 
+/*En el footer*/
 .espacioIconos{
   padding: 20px;
   margin-right: 20px;
@@ -121,6 +123,7 @@ html{
   margin:0px auto;
   padding: 30px;
 }
+/*Page Index*/
 
 .imgIndex {
   
