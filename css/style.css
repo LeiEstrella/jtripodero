@@ -93,6 +93,11 @@ html{
 }
 
 /*Page Contacto*/
+
+.buttonForm{
+  height: 44px;
+  width: 44px;
+}
 .alignForm {
   margin-left: auto;
   margin-right: auto;
@@ -112,6 +117,11 @@ html{
 .contactForm{
   color: solid black;
   font-size: 18px;
+}
+
+.margForm{
+  width: 100px;
+  height: 44px;
 }
 
 .recuadro {
